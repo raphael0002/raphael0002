@@ -1,6 +1,7 @@
 name: Refresh Native Profile
 
 on:
+  workflow_call:
   workflow_dispatch:
   schedule:
     - cron: "17 0 * * *"
@@ -8,6 +9,7 @@ on:
     paths:
       - "README.md"
       - "scripts/generate-dashboard.mjs"
+      - "scripts/generate-profile-art.mjs"
       - ".github/workflows/dashboard.yml"
 
 permissions:
@@ -39,11 +41,20 @@ jobs:
           GITHUB_USERNAME: raphael0002
         run: node scripts/generate-dashboard.mjs
 
+      - name: Generate contribution animation
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: raphael0002
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          outputs: |
+            assets/profile/contributions.svg?color_snake=#a78bfa&color_dots=#ebedf0,#cffafe,#67e8f9,#22d3ee,#0891b2
+            assets/profile/contributions-dark.svg?palette=github-dark&color_snake=#67e8f9&color_dots=#161b22,#164e63,#0e7490,#06b6d4,#67e8f9
+
       - name: Commit updated profile
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
+          git add README.md assets/profile/data.json assets/profile/languages.svg assets/profile/contributions.svg assets/profile/contributions-dark.svg
           git diff --cached --quiet && exit 0
           git commit -m "chore: refresh native profile"
           git push

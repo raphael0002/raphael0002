@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="56" viewBox="0 0 760 56" role="img" aria-labelledby="title desc">
+<title id="title">Full-stack developer</title>
+<desc id="desc">An animated introduction: Full-stack developer. Thoughtful interfaces. React &amp; Next.js. Node.js &amp; databases. Turning ideas into interactive experiences.</desc>
+<style>
+text{font-family:Consolas,"Courier New",monospace;font-size:19px;fill:#67e8f9}
+.line{opacity:0;animation:typing 15s linear infinite;clip-path:inset(0 100% 0 0)}
+.first{opacity:1}.second{animation-delay:5s}.third{animation-delay:10s}
+@keyframes typing{0%{opacity:1;clip-path:inset(0 100% 0 0)}15%,27%{opacity:1;clip-path:inset(0 0 0 0)}33%{opacity:1;clip-path:inset(0 100% 0 0)}34%,100%{opacity:0;clip-path:inset(0 100% 0 0)}}
+@media(prefers-color-scheme:light){text{fill:#0e7490}}
+@media(prefers-reduced-motion:reduce){.line{animation:none;clip-path:none;opacity:0}.first{opacity:1}}
+</style>
+<g class="line first"><text x="380" y="30" text-anchor="middle">Full-stack developer. Thoughtful interfaces.</text></g>
+<g class="line second"><text x="380" y="30" text-anchor="middle">React &amp; Next.js. Node.js &amp; databases.</text></g>
+<g class="line third"><text x="380" y="30" text-anchor="middle">Turning ideas into interactive experiences.</text></g>
+</svg>

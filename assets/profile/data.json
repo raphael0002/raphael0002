@@ -1,0 +1,104 @@
+{
+  "user": {
+    "login": "raphael0002",
+    "name": "Rohan Shrestha",
+    "public_repos": 20,
+    "followers": 3,
+    "created_at": "2023-11-21T14:03:24Z"
+  },
+  "repos": [
+    {
+      "name": "Leaflet-Digital-Solution",
+      "description": "Company website and digital services platform.",
+      "language": "TypeScript",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "fork": false,
+      "pushed_at": "2026-09-27"
+    },
+    {
+      "name": "3D-Portfolio-threejs",
+      "description": "Interactive 3D portfolio built with React and Three.js.",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "fork": false,
+      "pushed_at": "2026-09-27"
+    },
+    {
+      "name": "Meal-Map",
+      "description": "Recipe application built with the MERN stack.",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "fork": false,
+      "pushed_at": "2026-09-27"
+    },
+    {
+      "name": "chatify",
+      "description": "Modern React-based web chat interface.",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "fork": false,
+      "pushed_at": "2026-09-27"
+    },
+    {
+      "name": "StudentPortal",
+      "description": "Student management portal with create, view, update, and delete workflows.",
+      "language": "C#",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "fork": false,
+      "pushed_at": "2026-09-27"
+    },
+    {
+      "name": "Aeterna",
+      "description": "Application project built with Dart.",
+      "language": "Dart",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "fork": false,
+      "pushed_at": "2026-09-27"
+    }
+  ],
+  "totalStars": 1,
+  "languages": {},
+  "languageShares": [
+    {
+      "name": "TypeScript",
+      "pct": 52.9
+    },
+    {
+      "name": "JavaScript",
+      "pct": 31.4
+    },
+    {
+      "name": "Dart",
+      "pct": 11.7
+    },
+    {
+      "name": "CSS",
+      "pct": 1.8
+    },
+    {
+      "name": "C++",
+      "pct": 0.8
+    },
+    {
+      "name": "Other",
+      "pct": 1.4
+    }
+  ],
+  "languageRepoCount": 20,
+  "refreshedDate": "2026-09-27",
+  "contributions": {
+    "contributionCalendar": {
+      "totalContributions": 78
+    },
+    "totalCommitContributions": 74,
+    "totalPullRequestContributions": 0,
+    "totalIssueContributions": 0,
+    "totalPullRequestReviewContributions": 0
+  }
+}
