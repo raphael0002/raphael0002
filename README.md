@@ -1,44 +1,92 @@
-<div align="center">
+## Welcome to Rohan Shrestha's Hub
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=27&duration=2600&pause=900&color=39D353&center=true&vCenter=true&width=820&lines=ROHAN+SHRESTHA;FULL-STACK+DEVELOPER;BUILDING+MODERN+WEB+EXPERIENCES;TURNING+IDEAS+INTO+SOFTWARE" alt="Typing introduction" />
+Full-stack developer building modern web experiences.
 
-<br/>
+[Repositories](https://github.com/raphael0002?tab=repositories) &nbsp; · &nbsp; [Activity](https://github.com/raphael0002?tab=overview) &nbsp; · &nbsp; [Follow on GitHub](https://github.com/raphael0002)
 
-<picture>
-  <source media="(max-width: 650px)" srcset="./assets/dashboard-mobile.svg">
-  <img src="./assets/dashboard.svg" width="100%" alt="Rohan Shrestha GitHub dashboard">
-</picture>
+<!-- PROFILE:START -->
 
-<br/><br/>
+<table width="100%">
+<tr>
+<td width="25%" align="center"><h3>20</h3><a href="https://github.com/raphael0002?tab=repositories">Public repositories</a></td>
+<td width="25%" align="center"><h3>1</h3><a href="https://github.com/raphael0002?tab=repositories">Stars earned</a></td>
+<td width="25%" align="center"><h3>3</h3><a href="https://github.com/raphael0002?tab=followers">Followers</a></td>
+<td width="25%" align="center"><h3>2</h3><a href="https://github.com/raphael0002">Years on GitHub</a></td>
+</tr>
+</table>
 
-### `TOOLS I BUILD WITH`
+### Contributions
 
-<img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,express,mongodb,postgres,tailwind,html,css,threejs,vite,git,github,docker,vscode&theme=dark&perline=9" alt="Technology stack" />
+<p><a href="https://github.com/raphael0002?tab=overview">Explore my contribution history</a> — the interactive calendar is below my profile README.</p>
 
-<br/><br/>
+### Core technologies
 
-### `LIVE DEVELOPMENT ACTIVITY`
+<table width="100%">
+<tr><th align="left">Frontend</th><td><code>JavaScript</code> &nbsp; <code>TypeScript</code> &nbsp; <code>React</code> &nbsp; <code>Next.js</code> &nbsp; <code>Tailwind CSS</code> &nbsp; <code>Three.js</code></td></tr>
+<tr><th align="left">Backend &amp; data</th><td><code>Node.js</code> &nbsp; <code>Express</code> &nbsp; <code>MongoDB</code> &nbsp; <code>PostgreSQL</code></td></tr>
+<tr><th align="left">Tools</th><td><code>Git</code> &nbsp; <code>GitHub</code> &nbsp; <code>Docker</code> &nbsp; <code>Vite</code> &nbsp; <code>VS Code</code></td></tr>
+</table>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=raphael0002&bg_color=000000&color=8b949e&line=238636&point=39d353&area=true&area_color=0e4429&hide_border=true&custom_title=Contribution%20Activity" width="100%" alt="Contribution activity graph" />
+<details>
+<summary><strong>Language breakdown</strong></summary>
+<br>
+<table>
+<thead><tr><th align="left">Language</th><th align="right">Share</th></tr></thead>
+<tbody>
+<tr><td>TypeScript</td><td align="right">52.8%</td></tr>
+<tr><td>JavaScript</td><td align="right">31.5%</td></tr>
+<tr><td>Dart</td><td align="right">11.6%</td></tr>
+<tr><td>CSS</td><td align="right">1.8%</td></tr>
+<tr><td>C++</td><td align="right">0.8%</td></tr>
+<tr><td>Other</td><td align="right">1.4%</td></tr>
+</tbody>
+</table>
+<p><sub>By code size across 20 recently updated public repositories, excluding forks. Percentages are rounded.</sub></p>
+</details>
 
-<br/>
+### Notable projects
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/raphael0002/raphael0002/output/github-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/raphael0002/raphael0002/output/github-snake.svg">
-  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/raphael0002/raphael0002/output/github-snake-dark.svg" width="100%">
-</picture>
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/raphael0002/Leaflet-Digital-Solution">Leaflet-Digital-Solution</a></h3>
+<p>Company website and digital services platform.</p>
+<p><code>TypeScript</code> &nbsp; <a href="https://github.com/raphael0002/Leaflet-Digital-Solution/stargazers">1 star</a> &nbsp; <a href="https://github.com/raphael0002/Leaflet-Digital-Solution/forks">0 forks</a></p>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/raphael0002/3D-Portfolio-threejs">3D-Portfolio-threejs</a></h3>
+<p>Interactive 3D portfolio built with React and Three.js.</p>
+<p><code>JavaScript</code> &nbsp; <a href="https://github.com/raphael0002/3D-Portfolio-threejs/stargazers">0 stars</a> &nbsp; <a href="https://github.com/raphael0002/3D-Portfolio-threejs/forks">0 forks</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/raphael0002/Meal-Map">Meal-Map</a></h3>
+<p>Recipe application built with the MERN stack.</p>
+<p><code>JavaScript</code> &nbsp; <a href="https://github.com/raphael0002/Meal-Map/stargazers">0 stars</a> &nbsp; <a href="https://github.com/raphael0002/Meal-Map/forks">0 forks</a></p>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/raphael0002/chatify">chatify</a></h3>
+<p>Modern React-based web chat interface.</p>
+<p><code>JavaScript</code> &nbsp; <a href="https://github.com/raphael0002/chatify/stargazers">0 stars</a> &nbsp; <a href="https://github.com/raphael0002/chatify/forks">0 forks</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/raphael0002/StudentPortal">StudentPortal</a></h3>
+<p>Student management portal with create, view, update, and delete workflows.</p>
+<p><code>C#</code> &nbsp; <a href="https://github.com/raphael0002/StudentPortal/stargazers">0 stars</a> &nbsp; <a href="https://github.com/raphael0002/StudentPortal/forks">0 forks</a></p>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/raphael0002/Aeterna">Aeterna</a></h3>
+<p>Application project built with Dart.</p>
+<p><code>Dart</code> &nbsp; <a href="https://github.com/raphael0002/Aeterna/stargazers">0 stars</a> &nbsp; <a href="https://github.com/raphael0002/Aeterna/forks">0 forks</a></p>
+</td>
+</tr>
+</table>
 
-<br/><br/>
+<p><a href="https://github.com/raphael0002?tab=repositories">Browse all repositories</a></p>
 
-<a href="https://github.com/raphael0002">
-  <img src="https://custom-icon-badges.demolab.com/badge/GitHub-raphael0002-161b22?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile">
-</a>
-<img src="https://komarev.com/ghpvc/?username=raphael0002&label=PROFILE+VIEWS&color=238636&style=for-the-badge" alt="Profile views">
-<img src="https://img.shields.io/github/followers/raphael0002?label=FOLLOWERS&style=for-the-badge&color=238636&labelColor=161b22" alt="GitHub followers">
+<sub>Stats refreshed 2026-09-27 UTC · Stars count public repositories I own, excluding forks.</sub>
 
-<br/><br/>
-
-<sub>BUILDING · LEARNING · IMPROVING</sub>
-
-</div>
+<!-- PROFILE:END -->

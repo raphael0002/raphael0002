@@ -1,23 +1,41 @@
-# Setup
+# Native GitHub profile
 
-1. Copy every file in this package into the root of `raphael0002/raphael0002`.
-2. Commit and push.
-3. Open the repository's **Actions** tab.
-4. Run **Refresh Profile Dashboard** once.
-5. Run **Generate Contribution Snake** once.
-6. GitHub will then refresh the dashboard daily and regenerate the snake daily.
+The profile uses Markdown and GitHub-supported HTML: selectable text, statistics, technology labels, an expandable language table, and six linked project cards. It contains no dashboard images, image badges, custom CSS, or JavaScript.
 
-No personal access token is required. Both workflows use the repository-provided `GITHUB_TOKEN`.
+GitHub controls the fonts, colors, borders, spacing, and mobile table scrolling. The profile follows each visitor's GitHub theme. The interactive contribution calendar remains in GitHub's own profile section below the README.
 
-## Files
+## Publish and refresh
 
-- `README.md` — the visible GitHub profile.
-- `assets/dashboard.svg` — desktop dashboard.
-- `assets/dashboard-mobile.svg` — responsive mobile dashboard.
-- `scripts/generate-dashboard.mjs` — fetches live GitHub data and regenerates the dashboard.
-- `.github/workflows/dashboard.yml` — daily dashboard refresh.
-- `.github/workflows/snake.yml` — contribution snake generator.
+1. Commit and push these changes to the default branch of `raphael0002/raphael0002`.
+2. Open **Actions → Refresh Native Profile** and check the run triggered by the push, or choose **Run workflow**.
+3. The workflow updates the README daily at 00:17 UTC. It commits only when content changes.
+
+The workflow uses the repository-provided `GITHUB_TOKEN`; no personal token is needed. GitHub Actions must be enabled and the repository must allow workflows to write repository contents. Branch protection may prevent the automated commit.
 
 ## Customize
 
-Edit the `featuredOrder` array in `scripts/generate-dashboard.mjs` to choose which repositories appear as featured projects.
+- Edit the introduction above `<!-- PROFILE:START -->` in `README.md`. Content outside the generated markers is preserved.
+- Edit `featuredOrder` in `scripts/generate-dashboard.mjs` to choose and order up to six projects. Missing repositories are replaced with other public projects, sorted by stars and then recent activity.
+- Edit `technologies` in the same script to change the technology labels.
+- Edit `projectDescriptions` to update the short project summaries preserved from the previous profile. Other projects use their GitHub repository descriptions.
+- The block between `PROFILE:START` and `PROFILE:END` is generated. Make lasting layout edits in `renderProfile` instead.
+
+## Data
+
+- Repository count includes all owned public repositories; stars exclude forks.
+- Account age uses completed calendar years since the GitHub account was created.
+- Languages are aggregated by code size across up to 20 recently updated public repositories, excluding forks. The top five languages and an Other row cover the full sample.
+- Annual contribution totals come from GitHub GraphQL. Commit, pull request, issue, and review counts are a breakdown, not necessarily all contribution types.
+- If a required API request fails, the existing README is preserved.
+
+## Local refresh
+
+Node.js 24 or later is sufficient; no dependencies need to be installed.
+
+```powershell
+node scripts/generate-dashboard.mjs
+```
+
+Without `GITHUB_TOKEN`, the script reads public statistics through the REST API and provides a link to the contribution calendar. In Actions, the supplied token also enables the annual activity summary. Unauthenticated local refreshes are subject to GitHub's lower API rate limit.
+
+The previous SVG assets are no longer displayed or refreshed. The old snake workflow is available only for manual runs.
