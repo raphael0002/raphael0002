@@ -17,21 +17,17 @@ Full-stack developer building modern web experiences.
 
 ### Contributions
 
-<<<<<<< HEAD
-<p><a href="https://github.com/raphael0002?tab=overview">View contribution calendar</a></p>
-=======
 <p><strong>78 contributions</strong> in the past year.</p>
 <p>74 commits &nbsp; · &nbsp; 0 pull requests &nbsp; · &nbsp; 0 issues &nbsp; · &nbsp; 0 reviews</p>
 
-<p><a href="https://github.com/raphael0002?tab=overview">Explore my contribution history</a> — the interactive calendar is below my profile README.</p>
->>>>>>> 1333e64006303e136811d9afad07151ec7107196
+<p><a href="https://github.com/raphael0002?tab=overview">View contribution calendar</a></p>
 
 ### Core technologies
 
 <table>
-<tr><td width="180" valign="middle"><strong>Frontend</strong></td><td width="700"><p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="./assets/tech/js.svg" width="42" height="42" alt="JavaScript" title="JavaScript"></a> &nbsp; <a href="https://www.typescriptlang.org/"><img src="./assets/tech/ts.svg" width="42" height="42" alt="TypeScript" title="TypeScript"></a> &nbsp; <a href="https://react.dev/"><img src="./assets/tech/react.svg" width="42" height="42" alt="React" title="React"></a> &nbsp; <a href="https://nextjs.org/"><img src="./assets/tech/nextjs.svg" width="42" height="42" alt="Next.js" title="Next.js"></a> &nbsp; <a href="https://tailwindcss.com/"><img src="./assets/tech/tailwind.svg" width="42" height="42" alt="Tailwind CSS" title="Tailwind CSS"></a> &nbsp; <a href="https://threejs.org/"><img src="./assets/tech/threejs.svg" width="42" height="42" alt="Three.js" title="Three.js"></a></p><sub>JavaScript &nbsp; ? &nbsp; TypeScript &nbsp; ? &nbsp; React &nbsp; ? &nbsp; Next.js &nbsp; ? &nbsp; Tailwind CSS &nbsp; ? &nbsp; Three.js</sub></td></tr>
-<tr><td width="180" valign="middle"><strong>Backend &amp; data</strong></td><td width="700"><p><a href="https://nodejs.org/"><img src="./assets/tech/nodejs.svg" width="42" height="42" alt="Node.js" title="Node.js"></a> &nbsp; <a href="https://expressjs.com/"><img src="./assets/tech/express.svg" width="42" height="42" alt="Express" title="Express"></a> &nbsp; <a href="https://www.mongodb.com/"><img src="./assets/tech/mongodb.svg" width="42" height="42" alt="MongoDB" title="MongoDB"></a> &nbsp; <a href="https://www.postgresql.org/"><img src="./assets/tech/postgres.svg" width="42" height="42" alt="PostgreSQL" title="PostgreSQL"></a></p><sub>Node.js &nbsp; ? &nbsp; Express &nbsp; ? &nbsp; MongoDB &nbsp; ? &nbsp; PostgreSQL</sub></td></tr>
-<tr><td width="180" valign="middle"><strong>Tools</strong></td><td width="700"><p><a href="https://git-scm.com/"><img src="./assets/tech/git.svg" width="42" height="42" alt="Git" title="Git"></a> &nbsp; <a href="https://github.com/"><img src="./assets/tech/github.svg" width="42" height="42" alt="GitHub" title="GitHub"></a> &nbsp; <a href="https://www.docker.com/"><img src="./assets/tech/docker.svg" width="42" height="42" alt="Docker" title="Docker"></a> &nbsp; <a href="https://vite.dev/"><img src="./assets/tech/vite.svg" width="42" height="42" alt="Vite" title="Vite"></a> &nbsp; <a href="https://code.visualstudio.com/"><img src="./assets/tech/vscode.svg" width="42" height="42" alt="VS Code" title="VS Code"></a></p><sub>Git &nbsp; ? &nbsp; GitHub &nbsp; ? &nbsp; Docker &nbsp; ? &nbsp; Vite &nbsp; ? &nbsp; VS Code</sub></td></tr>
+<tr><td width="180" valign="middle"><strong>Frontend</strong></td><td width="700"><p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="./assets/tech/js.svg" width="42" height="42" alt="JavaScript" title="JavaScript"></a> &nbsp; <a href="https://www.typescriptlang.org/"><img src="./assets/tech/ts.svg" width="42" height="42" alt="TypeScript" title="TypeScript"></a> &nbsp; <a href="https://react.dev/"><img src="./assets/tech/react.svg" width="42" height="42" alt="React" title="React"></a> &nbsp; <a href="https://nextjs.org/"><img src="./assets/tech/nextjs.svg" width="42" height="42" alt="Next.js" title="Next.js"></a> &nbsp; <a href="https://tailwindcss.com/"><img src="./assets/tech/tailwind.svg" width="42" height="42" alt="Tailwind CSS" title="Tailwind CSS"></a> &nbsp; <a href="https://threejs.org/"><img src="./assets/tech/threejs.svg" width="42" height="42" alt="Three.js" title="Three.js"></a></p><sub>JavaScript &nbsp; · &nbsp; TypeScript &nbsp; · &nbsp; React &nbsp; · &nbsp; Next.js &nbsp; · &nbsp; Tailwind CSS &nbsp; · &nbsp; Three.js</sub></td></tr>
+<tr><td width="180" valign="middle"><strong>Backend &amp; data</strong></td><td width="700"><p><a href="https://nodejs.org/"><img src="./assets/tech/nodejs.svg" width="42" height="42" alt="Node.js" title="Node.js"></a> &nbsp; <a href="https://expressjs.com/"><img src="./assets/tech/express.svg" width="42" height="42" alt="Express" title="Express"></a> &nbsp; <a href="https://www.mongodb.com/"><img src="./assets/tech/mongodb.svg" width="42" height="42" alt="MongoDB" title="MongoDB"></a> &nbsp; <a href="https://www.postgresql.org/"><img src="./assets/tech/postgres.svg" width="42" height="42" alt="PostgreSQL" title="PostgreSQL"></a></p><sub>Node.js &nbsp; · &nbsp; Express &nbsp; · &nbsp; MongoDB &nbsp; · &nbsp; PostgreSQL</sub></td></tr>
+<tr><td width="180" valign="middle"><strong>Tools</strong></td><td width="700"><p><a href="https://git-scm.com/"><img src="./assets/tech/git.svg" width="42" height="42" alt="Git" title="Git"></a> &nbsp; <a href="https://github.com/"><img src="./assets/tech/github.svg" width="42" height="42" alt="GitHub" title="GitHub"></a> &nbsp; <a href="https://www.docker.com/"><img src="./assets/tech/docker.svg" width="42" height="42" alt="Docker" title="Docker"></a> &nbsp; <a href="https://vite.dev/"><img src="./assets/tech/vite.svg" width="42" height="42" alt="Vite" title="Vite"></a> &nbsp; <a href="https://code.visualstudio.com/"><img src="./assets/tech/vscode.svg" width="42" height="42" alt="VS Code" title="VS Code"></a></p><sub>Git &nbsp; · &nbsp; GitHub &nbsp; · &nbsp; Docker &nbsp; · &nbsp; Vite &nbsp; · &nbsp; VS Code</sub></td></tr>
 </table>
 
 ### Languages
@@ -39,21 +35,12 @@ Full-stack developer building modern web experiences.
 <table>
 <thead><tr><th align="left">Language</th><th align="right">Share</th></tr></thead>
 <tbody>
-<<<<<<< HEAD
-<tr><td width="700">TypeScript</td><td width="180" align="right">52.8%</td></tr>
-<tr><td width="700">JavaScript</td><td width="180" align="right">31.5%</td></tr>
-<tr><td width="700">Dart</td><td width="180" align="right">11.6%</td></tr>
+<tr><td width="700">TypeScript</td><td width="180" align="right">52.9%</td></tr>
+<tr><td width="700">JavaScript</td><td width="180" align="right">31.4%</td></tr>
+<tr><td width="700">Dart</td><td width="180" align="right">11.7%</td></tr>
 <tr><td width="700">CSS</td><td width="180" align="right">1.8%</td></tr>
 <tr><td width="700">C++</td><td width="180" align="right">0.8%</td></tr>
 <tr><td width="700">Other</td><td width="180" align="right">1.4%</td></tr>
-=======
-<tr><td>TypeScript</td><td align="right">52.9%</td></tr>
-<tr><td>JavaScript</td><td align="right">31.4%</td></tr>
-<tr><td>Dart</td><td align="right">11.7%</td></tr>
-<tr><td>CSS</td><td align="right">1.8%</td></tr>
-<tr><td>C++</td><td align="right">0.8%</td></tr>
-<tr><td>Other</td><td align="right">1.4%</td></tr>
->>>>>>> 1333e64006303e136811d9afad07151ec7107196
 </tbody>
 </table>
 <p><sub>By code size across 20 recently updated public repositories, excluding forks. Percentages are rounded.</sub></p>
@@ -104,7 +91,6 @@ Full-stack developer building modern web experiences.
 </td>
 </tr>
 </table>
-
 
 <p><a href="https://github.com/raphael0002?tab=repositories">Browse all repositories</a></p>
 
