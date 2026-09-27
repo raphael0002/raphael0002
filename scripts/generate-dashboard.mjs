@@ -23,9 +23,27 @@ const projectDescriptions = {
 };
 
 const technologies = [
-  ["Frontend", ["JavaScript", "TypeScript", "React", "Next.js", "Tailwind CSS", "Three.js"]],
-  ["Backend & data", ["Node.js", "Express", "MongoDB", "PostgreSQL"]],
-  ["Tools", ["Git", "GitHub", "Docker", "Vite", "VS Code"]],
+  ["Frontend", [
+    ["js", "JavaScript", "https://developer.mozilla.org/en-US/docs/Web/JavaScript"],
+    ["ts", "TypeScript", "https://www.typescriptlang.org/"],
+    ["react", "React", "https://react.dev/"],
+    ["nextjs", "Next.js", "https://nextjs.org/"],
+    ["tailwind", "Tailwind CSS", "https://tailwindcss.com/"],
+    ["threejs", "Three.js", "https://threejs.org/"],
+  ]],
+  ["Backend & data", [
+    ["nodejs", "Node.js", "https://nodejs.org/"],
+    ["express", "Express", "https://expressjs.com/"],
+    ["mongodb", "MongoDB", "https://www.mongodb.com/"],
+    ["postgres", "PostgreSQL", "https://www.postgresql.org/"],
+  ]],
+  ["Tools", [
+    ["git", "Git", "https://git-scm.com/"],
+    ["github", "GitHub", "https://github.com/"],
+    ["docker", "Docker", "https://www.docker.com/"],
+    ["vite", "Vite", "https://vite.dev/"],
+    ["vscode", "VS Code", "https://code.visualstudio.com/"],
+  ]],
 ];
 
 const escapeHtml = value => String(value ?? "")
@@ -59,8 +77,8 @@ export function selectProjects(repos, login) {
 
 function projectCard(repo, login) {
   const url = repoUrl(login, repo.name);
-  return `<td width="50%" valign="top">
-<h3><a href="${url}">${escapeHtml(repo.name)}</a></h3>
+  return `<td width="440" valign="top">
+<p><strong><a href="${url}">${escapeHtml(repo.name)}</a></strong></p>
 <p>${escapeHtml(projectDescriptions[repo.name] || repo.description || "Explore the source code and project details.")}</p>
 <p>${repo.language ? `<code>${escapeHtml(repo.language)}</code> &nbsp; ` : ""}<a href="${url}/stargazers">${number(repo.stargazers_count)} ${repo.stargazers_count === 1 ? "star" : "stars"}</a> &nbsp; <a href="${url}/forks">${number(repo.forks_count)} ${repo.forks_count === 1 ? "fork" : "forks"}</a></p>
 </td>`;
@@ -71,10 +89,10 @@ export function renderProfile(data, now = new Date()) {
   const url = profileUrl(user.login);
   const ownRepos = repos.filter(repo => !repo.fork);
   const stats = [
-    [number(user.public_repos), "Public repositories", `${url}?tab=repositories`],
+    [number(user.public_repos), "Repositories", `${url}?tab=repositories`],
     [number(ownRepos.reduce((sum, repo) => sum + repo.stargazers_count, 0)), "Stars earned", `${url}?tab=repositories`],
     [number(user.followers), "Followers", `${url}?tab=followers`],
-    [number(yearsActive(user.created_at, now)), "Years on GitHub", url],
+    [number(yearsActive(user.created_at, now)), "Years active", url],
   ];
   const totalBytes = Object.values(languages).reduce((sum, size) => sum + size, 0);
   const ranked = Object.entries(languages).sort((a, b) => b[1] - a[1]);
@@ -83,35 +101,34 @@ export function renderProfile(data, now = new Date()) {
   if (other) top.push(["Other", other]);
   const languageRows = totalBytes ? top.map(([name, size]) => {
     const percent = size / totalBytes * 100;
-    return `<tr><td>${escapeHtml(name)}</td><td align="right">${percent < 0.1 ? "&lt;0.1" : percent.toFixed(1)}%</td></tr>`;
+    return `<tr><td width="700">${escapeHtml(name)}</td><td width="180" align="right">${percent < 0.1 ? "&lt;0.1" : percent.toFixed(1)}%</td></tr>`;
   }).join("\n") : '<tr><td colspan="2">No language data yet.</td></tr>';
 
   const projects = selectProjects(repos, user.login);
   const rows = [];
   for (let i = 0; i < projects.length; i += 2) {
-    rows.push(`<tr>\n${projectCard(projects[i], user.login)}\n${projects[i + 1] ? projectCard(projects[i + 1], user.login) : '<td width="50%"></td>'}\n</tr>`);
+    rows.push(`<table>\n<tr>\n${projectCard(projects[i], user.login)}\n${projects[i + 1] ? projectCard(projects[i + 1], user.login) : '<td width="440"></td>'}\n</tr>\n</table>`);
   }
 
-  return `<table width="100%">
+  return `<table>
 <tr>
-${stats.map(([value, label, href]) => `<td width="25%" align="center"><h3>${value}</h3><a href="${href}">${label}</a></td>`).join("\n")}
+${stats.map(([value, label, href]) => `<td width="220" align="center" valign="middle"><h3>${value}</h3><p><sub><a href="${href}">${label}</a></sub></p></td>`).join("\n")}
 </tr>
 </table>
 
 ### Contributions
 
 ${contributions ? `<p><strong>${number(contributions.contributionCalendar.totalContributions)} contributions</strong> in the past year.</p>
-<p>${number(contributions.totalCommitContributions)} commits &nbsp; · &nbsp; ${number(contributions.totalPullRequestContributions)} pull requests &nbsp; · &nbsp; ${number(contributions.totalIssueContributions)} issues &nbsp; · &nbsp; ${number(contributions.totalPullRequestReviewContributions)} reviews</p>\n\n` : ""}<p><a href="${url}?tab=overview">Explore my contribution history</a> — the interactive calendar is below my profile README.</p>
+<p>${number(contributions.totalCommitContributions)} commits &nbsp; · &nbsp; ${number(contributions.totalPullRequestContributions)} pull requests &nbsp; · &nbsp; ${number(contributions.totalIssueContributions)} issues &nbsp; · &nbsp; ${number(contributions.totalPullRequestReviewContributions)} reviews</p>\n\n` : ""}<p><a href="${url}?tab=overview">View contribution calendar</a></p>
 
 ### Core technologies
 
-<table width="100%">
-${technologies.map(([label, values]) => `<tr><th align="left">${escapeHtml(label)}</th><td>${values.map(value => `<code>${escapeHtml(value)}</code>`).join(" &nbsp; ")}</td></tr>`).join("\n")}
+<table>
+${technologies.map(([label, values]) => `<tr><td width="180" valign="middle"><strong>${escapeHtml(label)}</strong></td><td width="700"><p>${values.map(([id, name, href]) => `<a href="${href}"><img src="./assets/tech/${id}.svg" width="42" height="42" alt="${escapeHtml(name)}" title="${escapeHtml(name)}"></a>`).join(" &nbsp; ")}</p><sub>${values.map(([, name]) => escapeHtml(name)).join(" &nbsp; · &nbsp; ")}</sub></td></tr>`).join("\n")}
 </table>
 
-<details>
-<summary><strong>Language breakdown</strong></summary>
-<br>
+### Languages
+
 <table>
 <thead><tr><th align="left">Language</th><th align="right">Share</th></tr></thead>
 <tbody>
@@ -119,11 +136,10 @@ ${languageRows}
 </tbody>
 </table>
 <p><sub>By code size across ${number(languageRepoCount)} recently updated public repositories, excluding forks. Percentages are rounded.</sub></p>
-</details>
 
 ### Notable projects
 
-${rows.length ? `<table width="100%">\n${rows.join("\n")}\n</table>` : "Public projects will appear here as they are published."}
+${rows.length ? rows.join("\n\n") : "Public projects will appear here as they are published."}
 
 <p><a href="${url}?tab=repositories">Browse all repositories</a></p>
 

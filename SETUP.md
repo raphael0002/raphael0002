@@ -1,6 +1,6 @@
 # Native GitHub profile
 
-The profile uses Markdown and GitHub-supported HTML: selectable text, statistics, technology labels, an expandable language table, and six linked project cards. It contains no dashboard images, image badges, custom CSS, or JavaScript.
+The profile uses Markdown and GitHub-supported HTML: selectable text, equal-width statistics, technology logos, a visible language table, and three pairs of linked project cards. Technology logos are stored locally in `assets/tech`; the rest of the layout is native text and tables.
 
 GitHub controls the fonts, colors, borders, spacing, and mobile table scrolling. The profile follows each visitor's GitHub theme. The interactive contribution calendar remains in GitHub's own profile section below the README.
 
@@ -17,6 +17,7 @@ The workflow uses the repository-provided `GITHUB_TOKEN`; no personal token is n
 - Edit the introduction above `<!-- PROFILE:START -->` in `README.md`. Content outside the generated markers is preserved.
 - Edit `featuredOrder` in `scripts/generate-dashboard.mjs` to choose and order up to six projects. Missing repositories are replaced with other public projects, sorted by stars and then recent activity.
 - Edit `technologies` in the same script to change the technology labels.
+- Each technology entry contains an icon ID, accessible name, and official website URL. Add the corresponding SVG to `assets/tech` when introducing an icon. The existing icons come from [Skill Icons](https://github.com/tandpfun/skill-icons), distributed under the MIT license; see `assets/tech/LICENSE`.
 - Edit `projectDescriptions` to update the short project summaries preserved from the previous profile. Other projects use their GitHub repository descriptions.
 - The block between `PROFILE:START` and `PROFILE:END` is generated. Make lasting layout edits in `renderProfile` instead.
 
