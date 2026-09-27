@@ -17,7 +17,14 @@ Full-stack developer building modern web experiences.
 
 ### Contributions
 
+<<<<<<< HEAD
 <p><a href="https://github.com/raphael0002?tab=overview">View contribution calendar</a></p>
+=======
+<p><strong>78 contributions</strong> in the past year.</p>
+<p>74 commits &nbsp; · &nbsp; 0 pull requests &nbsp; · &nbsp; 0 issues &nbsp; · &nbsp; 0 reviews</p>
+
+<p><a href="https://github.com/raphael0002?tab=overview">Explore my contribution history</a> — the interactive calendar is below my profile README.</p>
+>>>>>>> 1333e64006303e136811d9afad07151ec7107196
 
 ### Core technologies
 
@@ -32,12 +39,21 @@ Full-stack developer building modern web experiences.
 <table>
 <thead><tr><th align="left">Language</th><th align="right">Share</th></tr></thead>
 <tbody>
+<<<<<<< HEAD
 <tr><td width="700">TypeScript</td><td width="180" align="right">52.8%</td></tr>
 <tr><td width="700">JavaScript</td><td width="180" align="right">31.5%</td></tr>
 <tr><td width="700">Dart</td><td width="180" align="right">11.6%</td></tr>
 <tr><td width="700">CSS</td><td width="180" align="right">1.8%</td></tr>
 <tr><td width="700">C++</td><td width="180" align="right">0.8%</td></tr>
 <tr><td width="700">Other</td><td width="180" align="right">1.4%</td></tr>
+=======
+<tr><td>TypeScript</td><td align="right">52.9%</td></tr>
+<tr><td>JavaScript</td><td align="right">31.4%</td></tr>
+<tr><td>Dart</td><td align="right">11.7%</td></tr>
+<tr><td>CSS</td><td align="right">1.8%</td></tr>
+<tr><td>C++</td><td align="right">0.8%</td></tr>
+<tr><td>Other</td><td align="right">1.4%</td></tr>
+>>>>>>> 1333e64006303e136811d9afad07151ec7107196
 </tbody>
 </table>
 <p><sub>By code size across 20 recently updated public repositories, excluding forks. Percentages are rounded.</sub></p>
