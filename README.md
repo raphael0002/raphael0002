@@ -114,8 +114,8 @@
 <br>
 
 <h3 align="center">Languages in my repositories</h3>
-<p><img src="./assets/profile/languages.svg" width="100%" height="10" alt="TypeScript 52.9%, JavaScript 31.4%, Dart 11.7%, CSS 1.8%, C++ 0.8%, Other 1.4%"></p>
-<p align="center"><sub><strong>TypeScript</strong> 52.9% &nbsp; &middot; &nbsp; <strong>JavaScript</strong> 31.4% &nbsp; &middot; &nbsp; <strong>Dart</strong> 11.7% &nbsp; &middot; &nbsp; <strong>CSS</strong> 1.8% &nbsp; &middot; &nbsp; <strong>C++</strong> 0.8% &nbsp; &middot; &nbsp; <strong>Other</strong> 1.4%</sub></p>
+<p><img src="./assets/profile/languages.svg" width="100%" height="10" alt="TypeScript 52.8%, JavaScript 31.6%, Dart 11.6%, CSS 1.8%, C++ 0.8%, Other 1.4%"></p>
+<p align="center"><sub><strong>TypeScript</strong> 52.8% &nbsp; &middot; &nbsp; <strong>JavaScript</strong> 31.6% &nbsp; &middot; &nbsp; <strong>Dart</strong> 11.6% &nbsp; &middot; &nbsp; <strong>CSS</strong> 1.8% &nbsp; &middot; &nbsp; <strong>C++</strong> 0.8% &nbsp; &middot; &nbsp; <strong>Other</strong> 1.4%</sub></p>
 <p align="center"><sub>Code size across 20 recently updated public repositories, excluding forks.</sub></p>
 
 <hr>
