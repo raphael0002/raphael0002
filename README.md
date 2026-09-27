@@ -17,6 +17,9 @@ Full-stack developer building modern web experiences.
 
 ### Contributions
 
+<p><strong>78 contributions</strong> in the past year.</p>
+<p>74 commits &nbsp; · &nbsp; 0 pull requests &nbsp; · &nbsp; 0 issues &nbsp; · &nbsp; 0 reviews</p>
+
 <p><a href="https://github.com/raphael0002?tab=overview">Explore my contribution history</a> — the interactive calendar is below my profile README.</p>
 
 ### Core technologies
@@ -33,9 +36,9 @@ Full-stack developer building modern web experiences.
 <table>
 <thead><tr><th align="left">Language</th><th align="right">Share</th></tr></thead>
 <tbody>
-<tr><td>TypeScript</td><td align="right">52.8%</td></tr>
-<tr><td>JavaScript</td><td align="right">31.5%</td></tr>
-<tr><td>Dart</td><td align="right">11.6%</td></tr>
+<tr><td>TypeScript</td><td align="right">52.9%</td></tr>
+<tr><td>JavaScript</td><td align="right">31.4%</td></tr>
+<tr><td>Dart</td><td align="right">11.7%</td></tr>
 <tr><td>CSS</td><td align="right">1.8%</td></tr>
 <tr><td>C++</td><td align="right">0.8%</td></tr>
 <tr><td>Other</td><td align="right">1.4%</td></tr>
