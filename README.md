@@ -26,7 +26,7 @@
 <tr>
 <td width="220" align="center" valign="middle"><h3>20</h3><p><sub><a href="https://github.com/raphael0002?tab=repositories">Repositories</a></sub></p></td>
 <td width="220" align="center" valign="middle"><h3>1</h3><p><sub><a href="https://github.com/raphael0002?tab=repositories">Stars earned</a></sub></p></td>
-<td width="220" align="center" valign="middle"><h3>3</h3><p><sub><a href="https://github.com/raphael0002?tab=followers">Followers</a></sub></p></td>
+<td width="220" align="center" valign="middle"><h3>2</h3><p><sub><a href="https://github.com/raphael0002?tab=followers">Followers</a></sub></p></td>
 <td width="220" align="center" valign="middle"><h3>2</h3><p><sub><a href="https://github.com/raphael0002">Years active</a></sub></p></td>
 </tr>
 </table>
@@ -119,6 +119,6 @@
 <p align="center"><sub>Code size across 20 recently updated public repositories, excluding forks.</sub></p>
 
 <hr>
-<p align="center"><sub>Profile data refreshed 2026-09-30 UTC &middot; Stars exclude forks.</sub></p>
+<p align="center"><sub>Profile data refreshed 2026-10-01 UTC &middot; Stars exclude forks.</sub></p>
 
 <!-- PROFILE:END -->
