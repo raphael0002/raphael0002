@@ -100,8 +100,8 @@
 
 <h3 align="center">Code &amp; consistency</h3>
 
-<p align="center"><strong>93 contributions</strong> over the past year</p>
-<p align="center"><sub>89 commits &nbsp; &middot; &nbsp; 0 pull requests &nbsp; &middot; &nbsp; 0 issues &nbsp; &middot; &nbsp; 0 reviews</sub></p>
+<p align="center"><strong>99 contributions</strong> over the past year</p>
+<p align="center"><sub>95 commits &nbsp; &middot; &nbsp; 0 pull requests &nbsp; &middot; &nbsp; 0 issues &nbsp; &middot; &nbsp; 0 reviews</sub></p>
 
 <p align="center">
 <picture>
@@ -119,6 +119,6 @@
 <p align="center"><sub>Code size across 20 recently updated public repositories, excluding forks.</sub></p>
 
 <hr>
-<p align="center"><sub>Profile data refreshed 2026-10-13 UTC &middot; Stars exclude forks.</sub></p>
+<p align="center"><sub>Profile data refreshed 2026-10-14 UTC &middot; Stars exclude forks.</sub></p>
 
 <!-- PROFILE:END -->
